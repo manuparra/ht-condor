@@ -23,8 +23,26 @@ HT-Condor Deployment
   ```
   /sbin/service condor start
   ```
+ 
+## Questions
+
+- Configuration parameters:
+  - Groups of Hostname
+  - AFS
+  - Special requirement
+  - ...
+- Master:
+  - condor_master
+  - condor_collector
+  - condor_negotiator
+- Workers:
+  - condor_master
+  - condor_startd
+
   
-## Steps
+ 
+ 
+## Steps mono-node with all services included
  
 ```
 yum update;
