@@ -1,4 +1,5 @@
-# ht-condor
+## ht-condor
+
 HT-Condor Deployment
 
 
@@ -8,7 +9,6 @@ HT-Condor Deployment
   cd /etc/yum.repos.d
   wget http://htcondor.org/yum/repo.d/htcondor-stable-rhel7.repo
   ```
-Note that this step need be done only once; do not get the same repository more than once.
 - Import signing key The RPMs are signed in the Redhat 6 and RedHat 7 repositories.
   ```
   wget http://htcondor.org/yum/RPM-GPG-KEY-HTCondor
@@ -24,10 +24,8 @@ Note that this step need be done only once; do not get the same repository more 
   /sbin/service condor start
   ```
   
-  
-  
-  
- Steps:
+## Steps
+ 
 ```
 yum update;
 yum install wget;
@@ -39,3 +37,6 @@ rpm --import RPM-GPG-KEY-HTCondor
 yum install condor-all
 service condor start
 ```
+
+
+
