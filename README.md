@@ -7,11 +7,11 @@ HT-Condor Deployment
 - Download and install the meta-data that describes the appropriate YUM repository. This example is for the stable series, on RHEL 7.
   ```
   cd /etc/yum.repos.d
-  wget http://htcondor.org/yum/repo.d/htcondor-stable-rhel7.repo
+  curl -O http://research.cs.wisc.edu/htcondor/yum/repo.d/htcondor-stable-rhel7.repo
   ```
 - Import signing key The RPMs are signed in the Redhat 6 and RedHat 7 repositories.
   ```
-  wget http://htcondor.org/yum/RPM-GPG-KEY-HTCondor
+  curl -O  http://research.cs.wisc.edu/htcondor/yum/RPM-GPG-KEY-HTCondor
   rpm --import RPM-GPG-KEY-HTCondor
   ```
 - Install HTCondor.
