@@ -247,7 +247,7 @@ condor_transfer_data --all
 
 
 
-## Full scripts
+## Full script
 
 - Cloud-Init file, OpenStack initialization [Cloud-Init](openstack/deploy_fast.sh).
 - Auto deployment. To use from the master node [AutoDeploy](openstack/services_deploy.sh).
