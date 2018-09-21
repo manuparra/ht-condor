@@ -1,0 +1,19 @@
+###################################
+#                                 #
+# Condor submit file for hello.py #
+# file name: hello.sub            #
+###################################
+
+executable      = /tmp/hello.py
+universe = vanilla
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+
+output=/tmp/secondTestHello.$(Cluster).$(Process).out
+error=/tmp/secondTestHello.$(Cluster).$(Process).error
+log=/tmp/secondTestHello.$(Cluster).$(Process).log
+
+request_cpus = 1
+requirements = (Arch == "INTEL" && OpSys == "LINUX") || (Arch == "X86_64" && OpSys =="LINUX" )
+
+queue 1
