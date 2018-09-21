@@ -1,0 +1,16 @@
+COLLECTOR_NAME = Collector N1
+
+SCHEDD_HOST=condortest-2.cern.ch,condortest-3.cern.ch
+
+DAEMON_LIST= MASTER, SCHEDD ,COLLECTOR, NEGOTIATOR
+
+
+ALLOW_NEGOTIATOR= condortest-1.cern.ch
+ALLOW_NEGOTIATOR_SCHEDD= condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch
+
+ALLOW_WRITE = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+ALLOW_READ = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+
+HOSTALLOW_WRITE = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+HOSTALLOW_READ = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+

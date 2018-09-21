@@ -1,0 +1,13 @@
+COLLECTOR_NAME = condortest-1.cern.ch
+
+DAEMON_LIST= MASTER, STARTD
+
+ALLOW_WRITE = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+ALLOW_READ = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+
+FLOCK_TO = condortest-2.cern.ch, condortest-3.cern.ch
+ALLOW_ADMINISTRATOR = $(CONDOR_HOST)
+ALLOW_OWNER = $(FULL_HOSTNAME), $(ALLOW_ADMINISTRATOR)
+
+HOSTALLOW_WRITE = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
+HOSTALLOW_READ  = condortest-1.cern.ch, condortest-2.cern.ch, condortest-3.cern.ch, condortest-4.cern.ch, condortest-5.cern.ch
