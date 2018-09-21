@@ -183,7 +183,7 @@ slot2@condortest-5.cern.ch LINUX      X86_64 Unclaimed Idle      0.000 1723  0+0
 
 Let's use an example Submit file and a simple program in python that executes a simple script that lasts 60 seconds. Copy both (submit file and executable) files to ``/tmp/``.
 
-Submission file [hello.sub](example/hello.sub) :
+Submission file [hello.sub](examples/hello.sub) :
 
 ```
 ###################################
@@ -208,7 +208,7 @@ queue 1
 ```
 
 
-Submission file [hello.py](example/hello.py):
+Submission file [hello.py](examples/hello.py):
 
 
 ```
