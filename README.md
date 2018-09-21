@@ -17,6 +17,7 @@ TOC:
   * [Verify status of resources](#verify-status-of-resources)
   * [Submiting a Job](#submiting-a-job)
   * [Support for AFS](#support-for-afs)
+- [Full scripts](#full-script)
 - [References](#references)
 
 
@@ -245,6 +246,11 @@ condor_transfer_data --all
 ```
 
 
+
+## Full scripts
+
+- Cloud-Init file, OpenStack initialization [Cloud-Init](openstack/deploy_fast.sh).
+- Auto deployment. To use from the master node [AutoDeploy](openstack/services_deploy.sh).
 
 
 
