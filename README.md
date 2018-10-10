@@ -1,7 +1,7 @@
 # HT-Condor Deployment @ CERN
 
 
-This is a tutorial to install HT-Condor from scratch with an example node configuration, consisting of 1 master node, 2 scheduler nodes, 2 workers nodes. Later we will explain each role of each service or node. For this installation you need 5 working nodes, in this case the installation is based on CERN CentOS7, but it will work perfectly for CentOS7 or distributions based on RHEL. We will install HT-Condor 9.6.12.
+This is a tutorial to install HT-Condor from scratch with an example node configuration, consisting of 1 master node, 2 scheduler nodes, 2 workers nodes. Later we will explain each role of each service or node. For this installation you need 5 working nodes, in this case the installation is based on CERN CentOS7, but it will work perfectly for CentOS7 or distributions based on RHEL. We will install HT-Condor 8.6.12.
 
 
 TOC:
